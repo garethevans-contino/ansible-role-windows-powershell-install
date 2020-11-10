@@ -38,6 +38,10 @@ We're using Pre-Commit Hooks and configuration from [https://pre-commit.com/](ht
 |**Shell Check**|v2.1.4           |https://github.com/jumanjihouse/pre-commit-hooks
 |**Ansible Linter**|v4.1.0           |https://github.com/ansible/ansible-lint
 
+## Ansible Role
+
+TODO
+
 ## Setup
 
 ### Developer(s) Machines Setup
