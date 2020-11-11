@@ -1,4 +1,5 @@
 ---
 
 - name: Run Tests
-  shell: "inspec exec ../tests/integration/default/default.rb"
+  shell: "inspec exec"
+  #shell: "inspec exec ../tests/integration/default/default.rb"
