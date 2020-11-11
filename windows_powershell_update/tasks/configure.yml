@@ -3,4 +3,4 @@
 - name: Unpack the Upgrade-PS.ps1.j2
   template:
     src: "templates/Upgrade-PS.ps1.j2"
-    dest: "{{ deploy_files_folder }}Upgrade-PS.ps1"
+    dest: "{{ deploy_folder }}Upgrade-PS.ps1"

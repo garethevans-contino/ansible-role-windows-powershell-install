@@ -2,7 +2,7 @@
 
 - name: Create directory structure
   win_file:
-    path: "{{ deploy_files_folder }}"
+    path: "{{ deploy_folder }}"
     state: directory
 
 - name: Create config scripts directory structure
