@@ -4,7 +4,7 @@ galaxy_info:
   company: "Contino"
   min_ansible_version: 2.4
   platforms:
-  - name: Windows
+  - name: Windows Server
     versions:
     - 2008R2
     - 2012
@@ -13,3 +13,7 @@ galaxy_info:
   galaxy_tags:
     - windows
     - powershell
+    - microsoft
+    - system
+    - security
+  dependencies: []
