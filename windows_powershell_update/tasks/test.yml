@@ -1,0 +1,4 @@
+---
+
+  - name: Run Tests
+    win_shell: "inspect exec ../tests/integration/default/default.rb"
