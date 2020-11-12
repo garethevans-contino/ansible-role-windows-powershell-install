@@ -4,4 +4,4 @@
     msg: "Path: '{{ playbook_dir }}'"
 
 - name: Run Tests
-  win_shell: "inspec exec tests/integration/default/default.rb"
+  win_shell: "inspec exec {{ playbook_dir }}/tests/integration/default/default.rb"
