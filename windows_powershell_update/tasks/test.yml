@@ -1,4 +1,4 @@
 ---
 
 - name: Run Tests
-  win_shell: "inspec exec tests/integration/default/default.rb"
+  win_shell: "inspec exec {{ role_path }}tests/integration/default/default.rb"
