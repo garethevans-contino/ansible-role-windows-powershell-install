@@ -1,5 +1,5 @@
 ---
 
 - name: Run Tests
-  win_shell: "Path: '{{ playbook_dir }}'"
+  win_shell: "echo \"Path: '{{ playbook_dir }}'\""
   #win_shell: "inspec exec tests/integration/default/default.rb"
