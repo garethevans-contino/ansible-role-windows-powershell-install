@@ -15,6 +15,7 @@ provisioner:
   ansible_version: latest
   ansible_verbosity: 2
   ansible_verbose: true
+  require_windows_support: true
   # starting playbook is at: test/integration/default/default.yml
 
 verifier:
@@ -24,9 +25,25 @@ platforms:
   - name: windows-2012R2
     driver_config:
       box: mwrock/Windows2012R2
+    verifier:
+      name: pester
+      test_folder: test
   - name: windows-2016
     driver_config:
       box: mwrock/Windows2016
+    verifier:
+      name: pester
+      test_folder: test
 
 suites:
   - name: default
+
+
+# https://thomascfoulds.com/2018/10/18/testing-ansible-roles-with-kitchen-inspec.html
+# suites:
+#   - name: default
+#     provisioner:
+#       playbook: scenarios/default/main.yml
+#     verifier:
+#       inspec_tests:
+#         - path: scenarios/default/test.rb

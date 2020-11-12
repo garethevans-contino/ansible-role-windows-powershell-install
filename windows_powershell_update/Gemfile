@@ -7,6 +7,9 @@ group :test do
   gem "minitest", "~> 5.5"
   gem "rake", ["~> 12.3", ">= 12.3.3"]
   gem "simplecov", "~> 0.10"
+  gem "kitchen-pester"
+  gem "winrm-fs"
+  gem "winrm"
 end
 
 group :integration do
@@ -14,5 +17,8 @@ group :integration do
   gem "kitchen-ansible"
   gem "kitchen-vagrant"
   gem "kitchen-inspec"
+  gem "kitchen-pester"
+  gem "winrm-fs"
+  gem "winrm"
   gem "concurrent-ruby", "~> 1.0"
 end
