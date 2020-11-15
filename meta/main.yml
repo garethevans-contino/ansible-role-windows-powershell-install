@@ -3,6 +3,7 @@ galaxy_info:
   description: Powershell Upgrade role for Windows Servers
   company: "Contino"
   min_ansible_version: 2.4
+  license: anything
   platforms:
   - name: Windows Server
     versions:

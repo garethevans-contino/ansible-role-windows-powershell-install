@@ -20,5 +20,6 @@ group :integration do
   gem "kitchen-pester"
   gem "winrm-fs"
   gem "winrm"
+  gem "busser"
   gem "concurrent-ruby", "~> 1.0"
 end

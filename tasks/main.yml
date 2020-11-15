@@ -1,6 +1,6 @@
 ---
 
-- name: Role Setup
+- name: Setup Role
   include: setup.yml
   tags:
     - setup

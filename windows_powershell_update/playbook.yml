@@ -1,4 +1,0 @@
----
- - hosts: all
-   roles:
-    - windows_powershell_update
